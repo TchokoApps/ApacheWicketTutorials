@@ -43,6 +43,7 @@ public abstract class WicketTutorialApplicationAbstract extends WebApplication i
 		mountBookmarkablePage("/section_1_3", com.tchokoapps.wicket.tutorial.chap01.section_1_3.Index.class);
 		mountBookmarkablePage("/section_3_1", com.tchokoapps.wicket.tutorial.chap03.section_3_1.Index.class);
 		mountBookmarkablePage("/section_3_2", com.tchokoapps.wicket.tutorial.chap03.section_3_2.Index.class);
+		mountBookmarkablePage("/section_3_3", com.tchokoapps.wicket.tutorial.chap03.section_3_3.Index.class);
 	}
 
 	@Override

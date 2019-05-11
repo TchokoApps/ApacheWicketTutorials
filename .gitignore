@@ -39,3 +39,6 @@ Thumbs.db
 
 Servers/
 WicketTutorial/target
+WicketTutorial/.settings
+WicketTutorial/.classpath
+WicketTutorial/.project

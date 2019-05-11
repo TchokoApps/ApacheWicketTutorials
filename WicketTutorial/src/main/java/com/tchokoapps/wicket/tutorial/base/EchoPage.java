@@ -1,4 +1,4 @@
-package com.tchokoapps.wicket.wickettutorials;
+package com.tchokoapps.wicket.tutorial.base;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
@@ -13,9 +13,9 @@ public class EchoPage extends WebPage {
 	private TextField textField;
 	private Form form;
 	private Button button;
-	
+
 	public EchoPage() {
-		
+
 		label = new Label("message", new Model(""));
 		textField = new TextField("textField", new Model(""));
 		form = new Form("form");
@@ -27,10 +27,10 @@ public class EchoPage extends WebPage {
 				textField.setModelObject("");
 			}
 		};
-		
+
 		form.add(textField);
 		form.add(button);
-		
+
 		this.add(form);
 		this.add(label);
 	}

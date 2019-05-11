@@ -1,4 +1,4 @@
-package com.tchokoapps.wicket.wickettutorials;
+package com.tchokoapps.wicket.tutorial.base;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
@@ -15,7 +15,7 @@ public class LinkCounter extends WebPage {
 
 			@Override
 			public void onClick() {
-				++counter; 
+				++counter;
 			}
 		});
 

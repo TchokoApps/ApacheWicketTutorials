@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.apache.wicket.markup.html.WebPage;
 
+@SuppressWarnings("serial")
 public abstract class CheeseStorePage extends WebPage {
 	public CheeseStoreSession getCheeseStoreSession() {
 		return (CheeseStoreSession) getSession();

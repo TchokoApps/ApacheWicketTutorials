@@ -11,9 +11,9 @@ import org.apache.wicket.Request;
 import org.apache.wicket.Response;
 import org.apache.wicket.Session;
 
-import com.tchokoapps.wicket.tutorial.base.WicketTutorialApplicationAbstract;
+import com.tchokoapps.wicket.tutorial.base.AbstractWicketTutorialApplication;
 
-public class CheeseStoreApplication extends WicketTutorialApplicationAbstract {
+public class CheeseStoreApplication extends AbstractWicketTutorialApplication {
 	private List<Cheese> cheeses = new ArrayList<>();
 
 	public CheeseStoreApplication() {

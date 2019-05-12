@@ -12,10 +12,10 @@ import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
-public abstract class WicketTutorialApplicationAbstract extends WebApplication implements ApplicationContextAware {
+public abstract class AbstractWicketTutorialApplication extends WebApplication implements ApplicationContextAware {
 
-	public static WicketTutorialApplicationAbstract get() {
-		return (WicketTutorialApplicationAbstract) Application.get();
+	public static AbstractWicketTutorialApplication get() {
+		return (AbstractWicketTutorialApplication) Application.get();
 	}
 
 	private boolean cheeseStoreRequestCycle = false;
@@ -44,6 +44,7 @@ public abstract class WicketTutorialApplicationAbstract extends WebApplication i
 		mountBookmarkablePage("/section_3_1", com.tchokoapps.wicket.tutorial.chap03.section_3_1.Index.class);
 		mountBookmarkablePage("/section_3_2", com.tchokoapps.wicket.tutorial.chap03.section_3_2.Index.class);
 		mountBookmarkablePage("/section_3_3", com.tchokoapps.wicket.tutorial.chap03.section_3_3.Index.class);
+		mountBookmarkablePage("/section_4_2", com.tchokoapps.wicket.tutorial.chap04.section_4_2.Index.class);
 	}
 
 	@Override
